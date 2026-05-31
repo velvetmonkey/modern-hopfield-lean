@@ -7,4 +7,6 @@ authors:
     orcid: "https://orcid.org/0009-0004-1899-7627"
 date-released: 2026-05-31
 repository-code: "https://github.com/velvetmonkey/modern-hopfield-lean"
+doi: 10.5281/zenodo.20480641
+url: https://zenodo.org/records/20480641
 license: "MIT"

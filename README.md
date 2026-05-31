@@ -4,6 +4,7 @@
 [![Mathlib](https://img.shields.io/badge/Mathlib-v4.28.0-purple)](https://github.com/leanprover-community/mathlib4)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Proofs](https://img.shields.io/badge/proofs-proven%20%2F%200%20sorry-brightgreen)](ModernHopfield)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20480641.svg)](https://doi.org/10.5281/zenodo.20480641)
 
 **modern-hopfield-lean: Formal Proofs for Continuous Modern Hopfield Networks in Lean 4**
 
