@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite it using the metadata below."
+title: "ModernHopfield: A Lean 4 formalization of continuous modern Hopfield network energy descent"
+authors:
+  - family-names: "Cassie"
+    given-names: "Ben"
+    orcid: "https://orcid.org/0009-0004-1899-7627"
+date-released: 2026-05-31
+repository-code: "https://github.com/velvetmonkey/modern-hopfield-lean"
+license: "MIT"
