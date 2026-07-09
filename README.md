@@ -78,3 +78,6 @@ The library targets Lean 4.28.0 and Mathlib v4.28.0.
 ## Author
 
 Ben Cassie
+## Part of the Lean proof corpus
+
+One of a family of small, machine-checked Lean 4 developments. Index: [velvetmonkey/lean](https://github.com/velvetmonkey/lean) ([live index](https://velvetmonkey.github.io/lean)).
