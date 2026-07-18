@@ -1,5 +1,6 @@
 # modern-hopfield-lean
 
+[![thread](https://img.shields.io/badge/%F0%9F%A7%B5-how%20it%20works-1DA1F2)](https://x.com/thevelvetmonke)
 [![Lean 4](https://img.shields.io/badge/Lean-4.28.0-blue)](https://lean-lang.org/)
 [![Mathlib](https://img.shields.io/badge/Mathlib-v4.28.0-purple)](https://github.com/leanprover-community/mathlib4)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -15,6 +16,14 @@ energy, convergence of the energy sequence, and a fixed-point characterisation.
 
 **Zero sorry statements.** Standard axioms only (`propext`, `Classical.choice`,
 `Quot.sound`).
+
+## What this is, and why it matters
+
+This library formalizes the energy argument for a finite-dimensional continuous modern Hopfield network. Its headline theorem, `ModernHopfield.energy_sequence_converges`, proves that the energy values along repeated softmax updates converge to some real limit.
+
+The proof has two machine-checked parts. Convexity of log-sum-exp and an exact tangent inequality show that one update cannot increase the energy. A separate estimate provides a uniform lower bound. Standard monotone convergence for real sequences then yields the limiting energy value.
+
+The conclusion concerns energy only. It does not prove that the state vectors converge, that the limit is a fixed point, that a stored pattern is retrieved, or that the network has a particular memory capacity. The model also uses exact finite real arithmetic and does not cover trained or approximate implementations.
 
 ## Setting
 
